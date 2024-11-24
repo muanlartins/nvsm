@@ -1,0 +1,375 @@
+@font-face {
+  font-family: 'Product Sans';
+  src: url('assets/fonts/Product\ Sans\ Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Product Sans';
+  src: url('assets/fonts/Product\ Sans\ Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+:root {
+  --light: #EBF3E0;
+  --medium: #90A674;
+  --dark: #131E05;
+  --link: #0000EE;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 100%;
+  text-decoration: none;
+
+  font-family: 'Product Sans';
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: var(--light);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  margin: 1rem 1rem 0 1rem;
+}
+
+.nav__logo {
+  width: 2rem;
+  height: 2rem;
+}
+
+.nav__pages {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 1rem;
+
+  list-style: none;
+}
+
+.nav__pages__page {
+  font-size: 0.625rem;
+  line-height: 100%;
+  color: var(--dark);
+}
+
+.nav__pages__page:first-child {
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1.5rem;
+}
+
+.brand {
+  margin: 2rem 1rem 0 1rem;
+}
+
+.brand__title {
+  height: 2rem;
+}
+
+.brand__description {
+  margin-top: 0.75rem;
+  font-size: 1.125rem;
+  font-weight: normal;
+}
+
+.about-me {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+
+  background: var(--medium);
+}
+
+.about-me__image {
+  height: 12rem;
+}
+
+.about-me__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+
+  margin: 0.75rem 0 0.75rem 0.75rem;
+  color: var(--light);
+}
+
+.about-me__description__name {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.about-me__description__profession {
+  font-size: 0.75rem;
+}
+
+.about-me__description__profession__title {
+  font-weight: normal;
+}
+
+.about-me__description__profession__license {
+  margin-top: 0.25rem;
+  font-weight: bold;
+}
+
+.about-me__description__experiences {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.about-me__description__experiences__experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.25rem;
+}
+
+.about-me__description__experiences__experience__title {
+  font-size: 0.625rem;
+  font-weight: bold;
+}
+
+.about-me__description__experiences__experience__value {
+  font-size: 0.5rem;
+  font-weight: normal;
+}
+
+.nutrition-aspects {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+
+  margin: 0 1rem 0 1rem;
+}
+
+.nutrition-aspects__title {
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 125%;
+}
+
+.nutrition-aspects__cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.5rem;
+
+  width: 100%;
+}
+
+.nutrition-aspects__cards__card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+
+  width: 100%;
+  border: 1px solid var(--dark);
+  border-radius: 0.625rem;
+}
+
+.nutrition-aspects__cards__card__icon {
+  width: 2rem;
+  height: 2rem;
+  margin: 1rem 0 1rem 1rem;
+}
+
+.nutrition-aspects__cards__card__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  gap: 0.25rem;
+}
+
+.nutrition-aspects__cards__card__text__title {
+  font-size: 0.625rem;
+  font-weight: bold;
+}
+
+.nutrition-aspects__cards__card__text__value {
+  font-size: 0.5rem;
+  font-weight: normal;
+  line-height: 125%;
+}
+
+.appointments {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+
+  background: var(--medium);
+  padding: 1rem;
+  color: var(--light);
+}
+
+.appointments__title {
+  font-size: 1rem; 
+}
+
+.appointments__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.appointments__text__paragraph {
+  font-size: 0.625rem;
+  line-height: 125%;
+}
+
+.nutrition-steps {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+
+  margin: 0 1rem 0 1rem;
+}
+
+.nutrition-steps__title {
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 125%;
+}
+
+.nutrition-steps__cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.5rem;
+
+  width: 100%;
+}
+
+.nutrition-steps__cards__card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+
+  width: 100%;
+  border: 1px solid var(--dark);
+  border-radius: 0.625rem;
+}
+
+.nutrition-steps__cards__card__icon {
+  width: 2rem;
+  height: 2rem;
+  margin: 1rem 0 1rem 1rem;
+}
+
+.nutrition-steps__cards__card__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  gap: 0.25rem;
+}
+
+.nutrition-steps__cards__card__text__title {
+  font-size: 0.625rem;
+  font-weight: bold;
+}
+
+.nutrition-steps__cards__card__text__value {
+  font-size: 0.5rem;
+  font-weight: normal;
+  line-height: 125%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: var(--medium);
+  color: var(--light);
+}
+
+.footer__title {
+  font-size: 1rem;
+}
+
+.footer__contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  width: 100%;
+}
+
+.footer__contacts__informations {
+  display: flex;  
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.footer__contacts__informations__information {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.25rem;
+}
+
+.footer__contacts__informations__information__title {
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.footer__contacts__informations__information__value {
+  font-size: 0.625rem;
+}
+
+.footer__contacts__socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 0.75rem;
+}
+
+.footer__contacts__socials__social {
+  width: 1.5rem;
+  height: 1.5rem;
+}
