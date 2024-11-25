@@ -78,20 +78,6 @@ main {
   gap: 1.5rem;
 }
 
-.brand {
-  margin: 0 1rem 0 1rem;
-}
-
-.brand__title {
-  height: 2rem;
-}
-
-.brand__description {
-  margin-top: 0.75rem;
-  font-size: 1.125rem;
-  font-weight: normal;
-}
-
 .about-me {
   display: flex;
   justify-content: flex-start;
@@ -159,159 +145,40 @@ main {
   font-weight: normal;
 }
 
-.nutrition-aspects {
+.resume {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 1rem;
+  gap: 2rem;
 
-  margin: 0 1rem 0 1rem;
+  margin: 0 1rem;
 }
 
-.nutrition-aspects__title {
-  font-size: 1rem;
-  font-weight: normal;
-  line-height: 125%;
-}
-
-.nutrition-aspects__cards {
+.resume__paragraph {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 0.5rem;
-
-  width: 100%;
-}
-
-.nutrition-aspects__cards__card {
-  display: flex;
-  flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   gap: 1rem;
-
-  width: 100%;
-  border: 1px solid var(--dark);
-  border-radius: 0.625rem;
 }
 
-.nutrition-aspects__cards__card__icon {
-  width: 2rem;
-  height: 2rem;
-  margin: 1rem 0 1rem 1rem;
-}
-
-.nutrition-aspects__cards__card__text {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: start;
-  gap: 0.25rem;
-}
-
-.nutrition-aspects__cards__card__text__title {
-  font-size: 0.625rem;
-  font-weight: bold;
-}
-
-.nutrition-aspects__cards__card__text__value {
-  font-size: 0.5rem;
-  font-weight: normal;
+.resume__paragraph__text {
+  color: var(--dark);
+  font-size: 0.75rem;
   line-height: 125%;
+  text-align: justify;
 }
 
-.appointments {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 1rem;
-
-  background: var(--medium);
-  padding: 1rem;
-  color: var(--light);
+.resume__paragraph__image {
+  height: 6rem;
 }
 
-.appointments__title {
-  font-size: 1rem; 
-}
-
-.appointments__text {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 0.75rem;
-}
-
-.appointments__text__paragraph {
-  font-size: 0.625rem;
+.resume__text {
+  color: var(--dark);
+  font-size: 0.875rem;
   line-height: 125%;
-}
-
-.nutrition-steps {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 1rem;
-
-  margin: 0 1rem 0 1rem;
-}
-
-.nutrition-steps__title {
-  font-size: 1rem;
-  font-weight: normal;
-  line-height: 125%;
-}
-
-.nutrition-steps__cards {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 0.5rem;
-
-  width: 100%;
-}
-
-.nutrition-steps__cards__card {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 1rem;
-
-  width: 100%;
-  border: 1px solid var(--dark);
-  border-radius: 0.625rem;
-}
-
-.nutrition-steps__cards__card__icon {
-  width: 2rem;
-  height: 2rem;
-  margin: 1rem 0 1rem 1rem;
-}
-
-.nutrition-steps__cards__card__text {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: start;
-  gap: 0.25rem;
-}
-
-.nutrition-steps__cards__card__text__title {
-  font-size: 0.625rem;
-  font-weight: bold;
-}
-
-.nutrition-steps__cards__card__text__value {
-  font-size: 0.5rem;
-  font-weight: normal;
-  line-height: 125%;
+  text-align: justify;
 }
 
 .footer {
