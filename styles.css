@@ -21,7 +21,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  line-height: 100%;
   text-decoration: none;
   font-family: 'Product Sans';
 }
@@ -71,7 +70,6 @@ body {
 .nav__pages__page {
   font-size: 1rem;
   width: 100%;
-  line-height: 100%;
   color: var(--light);
 }
 
@@ -100,7 +98,6 @@ body {
 .nav__pages__page__subpages__subpage {
   font-size: 1rem;
   width: 100%;
-  line-height: 100%;
   color: var(--light);
 }
 
@@ -258,7 +255,6 @@ main {
 .nutrition-aspects__title {
   font-size: 1rem;
   font-weight: normal;
-  line-height: 125%;
 }
 
 .nutrition-aspects__cards {
@@ -305,7 +301,6 @@ main {
 .nutrition-aspects__cards__card__text__value {
   font-size: 0.5rem;
   font-weight: normal;
-  line-height: 125%;
 }
 
 .appointments {
@@ -334,7 +329,6 @@ main {
 
 .appointments__text__paragraph {
   font-size: 0.625rem;
-  line-height: 125%;
 }
 
 .nutrition-steps {
@@ -350,7 +344,6 @@ main {
 .nutrition-steps__title {
   font-size: 1rem;
   font-weight: normal;
-  line-height: 125%;
 }
 
 .nutrition-steps__cards {
@@ -397,7 +390,6 @@ main {
 .nutrition-steps__cards__card__text__value {
   font-size: 0.5rem;
   font-weight: normal;
-  line-height: 125%;
 }
 
 .footer {

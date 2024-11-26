@@ -162,102 +162,44 @@ main {
   gap: 1.5rem;
 }
 
-.about-me {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
-
-  background: var(--medium);
-}
-
-.about-me__image {
-  height: 12rem;
-}
-
-.about-me__description {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 1rem;
-
-  margin: 0.75rem 0 0.75rem 0.75rem;
-  color: var(--light);
-}
-
-.about-me__description__name {
-  font-weight: bold;
-  font-size: 1rem;
-}
-
-.about-me__description__profession {
-  font-size: 0.75rem;
-}
-
-.about-me__description__profession__title {
-  font-weight: normal;
-}
-
-.about-me__description__profession__license {
-  margin-top: 0.25rem;
-  font-weight: bold;
-}
-
-.about-me__description__experiences {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 0.5rem;
-}
-
-.about-me__description__experiences__experience {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 0.25rem;
-}
-
-.about-me__description__experiences__experience__title {
-  font-size: 0.625rem;
-  font-weight: bold;
-}
-
-.about-me__description__experiences__experience__value {
-  font-size: 0.5rem;
-  font-weight: normal;
-}
-
-.resume {
+.diets {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 2rem;
-
-  margin: 0 1rem;
 }
 
-.resume__paragraph {
+.diets__paragraph {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   gap: 1rem;
 }
 
-.resume__paragraph__text {
+.diets__paragraph__image {
+  width: 100%;
+  background: var(--medium);
+  padding: 1rem;
+}
+
+.diets__paragraph__title {
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--dark);
+}
+
+.diets__paragraph__text {
   color: var(--dark);
   font-size: 0.75rem;
   text-align: justify;
+  margin: 0 1rem;
+  color: var(--dark);
 }
 
-.resume__paragraph__image {
-  height: 6rem;
-}
-
-.resume__text {
+.diets__text {
   color: var(--dark);
   font-size: 0.875rem;
   text-align: justify;
