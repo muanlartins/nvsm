@@ -21,8 +21,13 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  line-height: 125%;
 
   font-family: 'Product Sans';
+}
+
+sup {
+  vertical-align: top;
 }
 
 a {
@@ -195,7 +200,7 @@ main {
 
 .behavior__image {
   width: 100%;
-  padding: 5% 5% 0 5%;
+  padding: 1rem 1rem 0 1rem;
   background: var(--medium);
 }
 

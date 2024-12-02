@@ -22,8 +22,13 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  line-height: 125%;
 
   font-family: 'Product Sans';
+}
+
+sup {
+  vertical-align: top;
 }
 
 a {

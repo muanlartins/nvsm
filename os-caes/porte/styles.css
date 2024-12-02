@@ -188,117 +188,34 @@ main {
   flex-grow: 1;
 }
 
-.about-me {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.about-me__image {
-  width: 100%;
-}
-
-.about-me__description {
+.size {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 1.25rem;
+  gap: 1rem;
 
-  padding: 1rem;
-  color: var(--light);
+  color: var(--dark);
+}
+
+.size__image {
+  width: 100%;
+  padding: 1rem 1rem 0 1rem;
   background: var(--medium);
 }
 
-.about-me__description__name {
-  font-weight: bold;
-  font-size: 1.5rem;
-}
-
-.about-me__description__contacts {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 2rem;
-}
-
-.about-me__description__contacts__contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 0.5rem;
-}
-
-.about-me__description__contacts__contact__title {
-  font-size: 1.25rem;
-  font-weight: bold;
-}
-
-.about-me__description__contacts__contact__value {
+.size__paragraph {
   font-size: 1rem;
+  margin: 0 1rem;
 }
 
-.partners {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+.size__paragraph--reference {
+  font-size: 0.75rem;
 }
 
-.partners__title {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: var(--dark);
-  margin: 0 1rem 1rem 1rem;
-}
-
-.partners__partner {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 1.5rem;
-
-  padding: 1rem;
-  border-bottom: 1px solid var(--medium);
-  width: 100%;
-  color: var(--dark);
-}
-
-.partners__partner:last-of-type {
-  border-bottom: none;
-}
-
-.partners__partner__image {
-  width: 8rem;
-}
-
-.partners__partner__description {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 0.5rem;
-}
-
-.partners__partner__description__title {
+.size__subtitle {
   font-size: 1.25rem;
-  font-weight: bold;
-}
-
-.partners__partner__description__values {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 0.25rem;
-}
-
-.partners__partner__description__values__value {
-  font-size: 0.875rem;
-  font-weight: normal;
+  margin: 0 1rem;
 }
 
 .footer {
