@@ -179,7 +179,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  gap: 1.5rem;
+  gap: 2rem;
   flex-grow: 1;
 }
 
@@ -193,20 +193,18 @@ main {
 
 .brand__description {
   margin-top: 0.75rem;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   font-weight: normal;
 }
 
 .about-me {
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-end;
-
-  background: var(--medium);
 }
 
 .about-me__image {
-  height: 12rem;
+  width: 100%;
 }
 
 .about-me__description {
@@ -216,17 +214,24 @@ main {
   align-items: flex-start;
   gap: 1rem;
 
-  margin: 0.75rem 0 0.75rem 0.75rem;
+  padding: 1rem;
   color: var(--light);
+  background: var(--medium);
 }
 
 .about-me__description__name {
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .about-me__description__profession {
-  font-size: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.25rem;
+
+  font-size: 1.25rem;
 }
 
 .about-me__description__profession__title {
@@ -234,7 +239,6 @@ main {
 }
 
 .about-me__description__profession__license {
-  margin-top: 0.25rem;
   font-weight: bold;
 }
 
@@ -243,7 +247,7 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 0.5rem;
+  gap: 0.75rem;
 }
 
 .about-me__description__experiences__experience {
@@ -251,16 +255,16 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 0.25rem;
+  gap: 0.5rem;
 }
 
 .about-me__description__experiences__experience__title {
-  font-size: 0.625rem;
+  font-size: 1.125rem;
   font-weight: bold;
 }
 
 .about-me__description__experiences__experience__value {
-  font-size: 0.5rem;
+  font-size: 1rem;
   font-weight: normal;
 }
 
@@ -269,13 +273,13 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 1rem;
+  gap: 1.5rem;
 
-  margin: 0 1rem 0 1rem;
+  margin: 0 1rem;
 }
 
 .nutrition-aspects__title {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: normal;
 }
 
@@ -284,7 +288,7 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 0.5rem;
+  gap: 1rem;
 
   width: 100%;
 }
@@ -296,15 +300,15 @@ main {
   align-items: center;
   gap: 1rem;
 
+  padding: 1rem;
   width: 100%;
   border: 1px solid var(--dark);
   border-radius: 0.625rem;
 }
 
 .nutrition-aspects__cards__card__icon {
-  width: 2rem;
-  height: 2rem;
-  margin: 1rem 0 1rem 1rem;
+  width: 3rem;
+  height: 3rem;
 }
 
 .nutrition-aspects__cards__card__text {
@@ -312,17 +316,18 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   align-items: start;
-  gap: 0.25rem;
+  gap: 0.5rem;
 }
 
 .nutrition-aspects__cards__card__text__title {
-  font-size: 0.625rem;
+  font-size: 1.25rem;
   font-weight: bold;
 }
 
 .nutrition-aspects__cards__card__text__value {
-  font-size: 0.5rem;
+  font-size: 1rem;
   font-weight: normal;
+  text-align: justify;
 }
 
 .appointments {
@@ -330,7 +335,7 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 1rem;
+  gap: 1.25rem;
 
   background: var(--medium);
   padding: 1rem;
@@ -338,7 +343,7 @@ main {
 }
 
 .appointments__title {
-  font-size: 1rem; 
+  font-size: 1.5rem; 
 }
 
 .appointments__text {
@@ -346,11 +351,11 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 0.75rem;
+  gap: 1rem;
 }
 
 .appointments__text__paragraph {
-  font-size: 0.625rem;
+  font-size: 1rem;
 }
 
 .nutrition-steps {
@@ -358,13 +363,13 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 1rem;
+  gap: 1.5rem;
 
-  margin: 0 1rem 0 1rem;
+  margin: 0 1rem;
 }
 
 .nutrition-steps__title {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: normal;
 }
 
@@ -373,7 +378,7 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 0.5rem;
+  gap: 1rem;
 
   width: 100%;
 }
@@ -385,15 +390,15 @@ main {
   align-items: center;
   gap: 1rem;
 
+  padding: 1rem;
   width: 100%;
   border: 1px solid var(--dark);
   border-radius: 0.625rem;
 }
 
 .nutrition-steps__cards__card__icon {
-  width: 2rem;
-  height: 2rem;
-  margin: 1rem 0 1rem 1rem;
+  width: 3rem;
+  height: 3rem;
 }
 
 .nutrition-steps__cards__card__text {
@@ -401,17 +406,18 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   align-items: start;
-  gap: 0.25rem;
+  gap: 0.5rem;
 }
 
 .nutrition-steps__cards__card__text__title {
-  font-size: 0.625rem;
+  font-size: 1.25rem;
   font-weight: bold;
 }
 
 .nutrition-steps__cards__card__text__value {
-  font-size: 0.5rem;
+  font-size: 1rem;
   font-weight: normal;
+  text-align: justify;
 }
 
 .footer {
@@ -419,16 +425,16 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 1rem;
+  gap: 1.25rem;
 
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   padding: 1rem;
   background: var(--medium);
   color: var(--light);
 }
 
 .footer__title {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .footer__contacts {
@@ -445,7 +451,7 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 0.75rem;
+  gap: 1rem;
 }
 
 .footer__contacts__informations__information {
@@ -453,16 +459,16 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 0.25rem;
+  gap: 0.5rem;
 }
 
 .footer__contacts__informations__information__title {
-  font-size: 0.75rem;
+  font-size: 1.25rem;
   font-weight: bold;
 }
 
 .footer__contacts__informations__information__value {
-  font-size: 0.625rem;
+  font-size: 1rem;
 }
 
 .footer__contacts__socials {
