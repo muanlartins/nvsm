@@ -183,132 +183,34 @@ main {
   flex-grow: 1;
 }
 
-.articles {
+.dogs {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 1rem;
+
+  color: var(--dark);
 }
 
-.articles__image {
+.dogs__image {
   width: 100%;
   background: var(--medium);
 }
 
-.articles__article {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 1rem;
-
+.dogs__paragraph {
+  font-size: 1rem;
   margin: 0 1rem;
-  color: var(--dark);
 }
 
-.articles__article__summary {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 1rem;
-
-  position: relative;
-}
-
-.articles__article__summary:has(.articles__article__summary__input:checked) + .articles__article__content {
-  max-height: 500rem;
-}
-
-.articles__article__summary__arrow {
-  width: 1rem;
-  transition: ease 0.3s;
-}
-
-.articles__article__summary__arrow:has(+ * + .articles__article__summary__input:checked) {
-  transform: rotate(90deg);
-}
-
-.articles__article__summary__title {
-  font-size: 1.5rem;
-}
-
-.articles__article__summary__input {
-  position: absolute;
-  inset: 0;
-
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-}
-
-.articles__article__content {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 1rem;
-
-  transition: ease 0.3s;
-  overflow: hidden;
-  max-height: 0;
-}
-
-.articles__article__content__authors {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 1rem;
-}
-
-.articles__article__content__authors__author {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.articles__article__content__authors__author__image {
-  width: 5rem;
-  border-radius: 100%;
-}
-
-.articles__article__content__authors__author__description {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 0.25rem;
-}
-
-.articles__article__content__authors__author__description__name {
-  font-size: 1rem;
-}
-
-.articles__article__content__authors__author__description__license {
+.dogs__paragraph--reference {
   font-size: 0.75rem;
 }
 
-.articles__article__content__paragraph {
-  text-align: justify;
-  font-size: 1rem;
-}
-
-.articles__article__content__paragraph--reference {
-  font-size: 0.75rem;
-}
-
-.articles__article__content__title {
-  font-size: 1.25rem;
-}
-
-.articles__article__content__subtitle {
+.dogs__subtitle {
   font-size: 1.125rem;
+  margin: 0 1rem;
 }
-
 
 .footer {
   display: flex;
