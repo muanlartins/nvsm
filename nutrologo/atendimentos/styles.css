@@ -1,12 +1,12 @@
 @font-face {
   font-family: 'Product Sans';
-  src: url('../assets/fonts/Product\ Sans\ Regular.ttf') format('truetype');
+  src: url('../../assets/fonts/Product\ Sans\ Regular.ttf') format('truetype');
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'Product Sans';
-  src: url('../assets/fonts/Product\ Sans\ Bold.ttf') format('truetype');
+  src: url('../../assets/fonts/Product\ Sans\ Bold.ttf') format('truetype');
   font-weight: bold;
 }
 
@@ -189,33 +189,81 @@ main {
   flex-grow: 1;
 }
 
-.dogs {
+.graphs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+
+  margin: 0 1rem;
+  color: var(--dark);
+}
+
+.graphs__group {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 1rem;
 
-  color: var(--dark);
-}
-
-.dogs__image {
   width: 100%;
-  background: var(--medium);
 }
 
-.dogs__paragraph {
+.graphs__group__title {
+  font-size: 1.5rem;
+}
+
+.graphs__group__title__number {
   font-size: 1rem;
-  margin: 0 1rem;
+  font-weight: normal;
 }
 
-.dogs__paragraph--reference {
+.graphs__group__subtitle {
+  font-size: 1.25rem;
+}
+
+.graphs__group__subtitle__number {
+  font-size: 0.875rem;
+  font-weight: normal;
+}
+
+.graphs__group__graph {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.5rem;
+
+  width: 100%;
+}
+
+.graphs__group__graph--medium {
+  padding: 0 0 2rem 0;
+  height: 30rem;
+}
+
+.graphs__group__graph--large {
+  padding: 0 0 2rem 0;
+  height: 30rem;
+}
+
+.graphs__group__graph__title {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.graphs__group__graph__title__number {
+  font-weight: normal;
   font-size: 0.75rem;
 }
 
-.dogs__subtitle {
-  font-size: 1.25rem;
-  margin: 0 1rem;
+.graphs__group__graph__canvas {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.5rem;
 }
 
 .footer {

@@ -23,6 +23,7 @@
   box-sizing: border-box;
   text-decoration: none;
   line-height: 125%;
+  vertical-align: middle;
 
   font-family: 'Product Sans';
 }
