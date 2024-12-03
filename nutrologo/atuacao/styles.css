@@ -142,32 +142,34 @@ body {
 .nav__menu {
   position: relative;
   z-index: 1;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 .nav__menu__hamburger {
   position: absolute;
-  width: 1rem;
-  height: 0.125rem;
+  width: 1.5rem;
+  height: 0.25rem;
   border-radius: 0.125rem;
   background: var(--dark);
   transition: ease 0.3s;
 }
 
 .nav__menu__hamburger--top {
-  inset: 0 0 0 0;
+  inset: 0.125rem 0 0 0;
 }
 
 .nav__menu__hamburger--mid {
-  inset: 0.25rem 0 0 0;
+  inset: 0.625rem 0 0 0;
 }
 
 .nav__menu__hamburger--bot {
-  inset: 0.5rem 0 0 0;
+  inset: 1.125rem 0 0 0;
 }
 
 .nav__menu__hamburger--top:has(+ * + * + .nav__menu__input:checked) {
   background: var(--light);
-  transform: translateY(0.25rem) rotate(45deg);
+  transform: translateY(0.5rem) rotate(45deg);
 }
 
 .nav__menu__hamburger--mid:has(+ * + .nav__menu__input:checked) {
@@ -177,7 +179,7 @@ body {
 
 .nav__menu__hamburger--bot:has(+ .nav__menu__input:checked) {
   background: var(--light);
-  transform: translateY(-0.25rem) rotate(-45deg);
+  transform: translateY(-0.5rem) rotate(-45deg);
 }
 
 .nav__menu__input {
