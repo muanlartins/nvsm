@@ -28,6 +28,10 @@
   font-family: 'Product Sans';
 }
 
+strong {
+  vertical-align: baseline;
+}
+
 sup {
   vertical-align: top;
 }
