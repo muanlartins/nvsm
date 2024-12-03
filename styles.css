@@ -48,7 +48,7 @@ body {
   justify-content: space-between;
   align-items: flex-start;
 
-  padding: 1rem 1rem 1.5rem 1rem;
+  padding: 1rem 1rem 2rem 1rem;
 }
 
 .nav:has(.nav__pages + .nav__menu .nav__menu__input:checked) + * {
@@ -56,8 +56,8 @@ body {
 }
 
 .nav__logo {
-  width: 2rem;
-  height: 2rem;
+  width: 4rem;
+  height: 4rem;
 }
 
 .nav__pages {
