@@ -24,6 +24,7 @@
   text-decoration: none;
   line-height: 125%;
   vertical-align: middle;
+  text-align: justify;
 
   font-family: 'Product Sans';
 }
@@ -228,7 +229,6 @@ main {
 .diets__paragraph__text {
   color: var(--dark);
   font-size: 0.75rem;
-  text-align: justify;
   margin: 0 1rem;
   color: var(--dark);
 }
@@ -236,7 +236,6 @@ main {
 .diets__text {
   color: var(--dark);
   font-size: 0.875rem;
-  text-align: justify;
 }
 
 .footer {

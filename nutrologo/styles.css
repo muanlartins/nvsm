@@ -24,6 +24,7 @@
   text-decoration: none;
   line-height: 125%;
   vertical-align: middle;
+  text-align: justify;
 
   font-family: 'Product Sans';
 }
@@ -288,7 +289,6 @@ main {
 .resume__paragraph__text {
   color: var(--dark);
   font-size: 1rem;
-  text-align: justify;
 }
 
 .resume__paragraph__image {
@@ -298,7 +298,6 @@ main {
 .resume__text {
   color: var(--dark);
   font-size: 1.25rem;
-  text-align: justify;
 }
 
 .footer {

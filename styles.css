@@ -22,6 +22,10 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  line-height: 125%;
+  vertical-align: middle;
+  text-align: justify;
+
   font-family: 'Product Sans';
 }
 
@@ -329,7 +333,6 @@ main {
 .nutrition-aspects__cards__card__text__value {
   font-size: 1rem;
   font-weight: normal;
-  text-align: justify;
 }
 
 .appointments {
@@ -419,7 +422,6 @@ main {
 .nutrition-steps__cards__card__text__value {
   font-size: 1rem;
   font-weight: normal;
-  text-align: justify;
 }
 
 .footer {

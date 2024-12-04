@@ -23,6 +23,7 @@
   text-decoration: none;
   line-height: 125%;
   vertical-align: middle;
+  text-align: justify;
 
   font-family: 'Product Sans';
 }
@@ -305,7 +306,6 @@ main {
 }
 
 .articles__article__content__paragraph {
-  text-align: justify;
   font-size: 1rem;
 }
 
