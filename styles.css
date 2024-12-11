@@ -50,9 +50,9 @@ body {
 .nav {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
 
-  padding: 1rem 1rem 2rem 1rem;
+  padding: 1rem 1rem 1.5rem 1rem;
 }
 
 .nav:has(.nav__pages + .nav__menu .nav__menu__input:checked) + * {
@@ -60,8 +60,7 @@ body {
 }
 
 .nav__logo {
-  width: 4rem;
-  height: 4rem;
+  height: 2rem;
 }
 
 .nav__pages {
@@ -191,16 +190,6 @@ main {
 
 .brand {
   margin: 0 1rem 0 1rem;
-}
-
-.brand__title {
-  height: 2rem;
-}
-
-.brand__description {
-  margin-top: 0.75rem;
-  font-size: 1.25rem;
-  font-weight: normal;
 }
 
 .about-me {
